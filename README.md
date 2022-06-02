@@ -8,43 +8,34 @@ Simple 3D game
 
 We create a level in the editor and upload it to the server.
 
-Then by selecting a game, we can play our level
+Then in the launched client project we can load our level
 
 The aim is to defeat all opponents
 
 ## Installation
 
  - Clone/download the repository
- - Run `index.html` with the server (e.g. Live Server) 
+ - In `\Server` run Kotlin sparkserver file `\src\main\kotlin\sparkserver\App.kt` on default port 5000 (by e.g. InelliJ IDEA)
+ - In `\Client`:
+   - In terminal `run npm i` to install dependencies
+   - In the terminal `run npm run go` to run project on webpack server (default port 8080)
     
 
 ## Features
 
-- Map Creator:
-    - undo/redo
-    - selection negation
-    - load from file
-    - export to file
-- Random game backgrounds
-- Collision system
-- Shadows
+- Map Editor
+- Leaderboard
+- 3D Models
+- Aniamtions
+- Score system
+- Particles
+- Lights and Shadows
+- Shooting
+- Possibility to change camera settings
 
 
 ## Controls
 
-### Map Creator:
-    - Select Brick - LMB
-    - Select area - Hold LMB
-    - Selection negation - Ctrl + LMB
-    - Menu - RMB
-    - Undo - Ctrl + Z
-    - Redo - Ctrl + Y
-    - Delete - Del
-    - Save to file - Ctrl + S
-    - Load data from file - Ctrl + L
-
-### Game:
-    - Load data from file - Ctrl + L
-    - Move palette - AD / <> (Arrows)
-    - Start game - Space
+- WASD - player movement
+- Space - laser shooting
 
