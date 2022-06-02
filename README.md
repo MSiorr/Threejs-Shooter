@@ -6,8 +6,6 @@ Simple 3D game
 
 ##  Overall info
 
-Not exactly a fps, more of a third person fps.
-
 We create a level in the editor and upload it to the server.
 
 Then by selecting a game, we can play our level
