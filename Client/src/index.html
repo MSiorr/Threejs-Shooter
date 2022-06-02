@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GAME</title>
+</head>
+
+<body>
+    <div id="root"></div>
+    <div id="loadingScreen">
+        LOADING...
+    </div>
+    <div id="GUIInterface">
+        <div class="GUIColumn">
+            <label class='GUIOption'><input type="range" id="cameraHeight" min="1" max="75">camera height above
+                ground</label>
+            <label class='GUIOption'><input type="range" id="cameraXAngle" min="-90" max="90">camera tilt angle
+                x</label>
+            <label class='GUIOption'><input type="range" id="cameraCharacterDistance" min="-100" max="100">distance of
+                camera from the player</label>
+            <label class='GUIOption'><input type="range" id="cameraViewYAngle" min="-90" max="90">camera viewing angle
+                y</label>
+            <label class='GUIOption'><input type="range" id="cameraFOV" min="30" max="150" step="1">camera FOV</label>
+        </div>
+        <div class="GUIColumn">
+            <label class='GUIOption'><input type="range" id="fireplaceWidthX" min="1" max="5" step="0.01">campfire width
+                x</label>
+            <label class='GUIOption'><input type="range" id="fireplaceWidthZ" min="1" max="5" step="0.01">campfire width
+                z</label>
+            <label class='GUIOption'><input type="checkbox" id="shadows">shadows</label>
+            <label class='GUIOption'><input type="checkbox" id="aboveView">top view</label>
+            <label class='GUIOption'><input type="checkbox" id="cameraAfterPlayer">camera behind the player</label>
+        </div>
+        <div class="GUIColumn">
+            <label class='GUIOption'><input type="range" id="lightsPower" min="0" max="5" step="0.1">the power of
+                light</label>
+            <label class='GUIOption'><input type="range" id="fireplaceSize" min="0.1" max="2" step="0.01">fire
+                size</label>
+            <label class='GUIOption'><input type="range" id="laserDispersion" min="0" max="10" step="0.01">laser
+                spread</label>
+            <label class='GUIOption'><input type="range" id="laserScale" min="10" max="50" step="1">laser scale</label>
+        </div>
+    </div>
+</body>
+
+</html>

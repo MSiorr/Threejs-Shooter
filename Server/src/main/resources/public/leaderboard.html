@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FPS Leaderboard</title>
+    <style>
+        * {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+        body {
+            background-color: rgb(34, 34, 34);
+            overflow: hidden;
+        }
+        #title{
+            color: white;
+            width: 100%;
+            text-align: center;
+            font-size: 60px;
+        }
+        #divToScroll {
+            width: 95%;
+            max-height: calc(100vh - 200px);
+            overflow-y: auto;
+            margin: 0 auto;
+            position: relative;
+            border-top: 5px solid white;
+            border-bottom: 5px solid white;
+        }
+        #leadersTable {
+            width: 100%;
+            border-left: 5px solid white;
+            border-right: 5px solid white;
+            margin: 0 auto;
+            color: white;
+            border-collapse: collapse;
+            border-spacing: 0;
+            text-align: center;
+        }
+        #leadersTable th {
+            font-size: 24px;
+            border-bottom: 5px solid white;
+            padding: 10px 0;
+        }
+        #leadersTable td {
+            padding: 10px 0;
+        }
+        .mapMiniature {
+            border: 2px solid white;
+            background-color: rgba(0,0,0,0.2);
+            color: rgb(248, 179, 127);
+        }
+    </style>
+</head>
+<body>
+    <h1 id='title'>LEADERBOARD</h1>
+    <div id="divToScroll">
+        <table id="leadersTable">
+            <tr id="firstTr">
+                <th>MAP</th>
+                <th>NICK</th>
+                <th>SCORE</th>
+                <th>TIME</th>
+            </tr>
+        </table>
+    </div>
+
+    <script src="js/leaderboard.js"></script>
+</body>
+</html>
