@@ -1,4 +1,4 @@
-# Fps
+# Threejs-Shooter
 Simple 3D game
 
 ![look](img/look.png)
