@@ -30,6 +30,7 @@ The aim is to defeat all opponents
 - Score system
 - Particles
 - Lights and Shadows
+- Textures
 - Shooting
 - Possibility to change camera settings
 
