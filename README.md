@@ -34,6 +34,20 @@ The aim is to defeat all opponents
 - Shooting
 - Possibility to change camera settings
 
+## Technologies
+
+<p>
+ <img src="https://img.shields.io/badge/Three.js-000000?logo=Three.js&logoColor=white&style=for-the-badge" /> 
+ <img src="https://img.shields.io/badge/JavaScript-F7DF1E?logo=JavaScript&logoColor=black&style=for-the-badge" /> 
+ <img src="https://img.shields.io/badge/HTML5-E34F26?logo=HTML5&logoColor=white&style=for-the-badge" /> 
+ <img src="https://img.shields.io/badge/CSS3-1572B6?logo=CSS3&logoColor=white&style=for-the-badge" /> 
+ <img src="https://img.shields.io/badge/Webpack-8DD6F9?logo=Webpack&logoColor=black&style=for-the-badge" /> 
+</p>
+<p>
+ <img src="https://img.shields.io/badge/Kotlin-7F52FF?logo=Kotlin&logoColor=white&style=for-the-badge" /> 
+ <img src="https://img.shields.io/badge/PostgreSQL-4169E1?logo=PostgreSQL&logoColor=white&style=for-the-badge" />
+</p>
+
 
 ## Controls
 
