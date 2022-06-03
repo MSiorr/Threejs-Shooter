@@ -4,6 +4,10 @@ Simple 3D game
 ![look](img/look.png)
 
 
+### Test it now 
+**👉 https://ms-fps.herokuapp.com/ 👈**
+
+
 ##  Overall info
 
 We create a level in the editor and upload it to the server.
