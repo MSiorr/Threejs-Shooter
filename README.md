@@ -1,7 +1,7 @@
 # Threejs-Shooter
 Simple 3D game
 
-![obraz](https://user-images.githubusercontent.com/49323088/171881153-1531ef8d-935c-47d0-91e4-dfa0b5bfed24.png)
+![look](https://user-images.githubusercontent.com/49323088/173390301-d62e3edc-b686-4c34-b8d3-5f978044a626.png)
 
 
 ### Test it now 
