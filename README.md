@@ -30,7 +30,7 @@ The aim is to defeat all opponents
 - Map Editor
 - Leaderboard
 - 3D Models
-- Aniamtions
+- Aniamations
 - Score system
 - Particles
 - Lights and Shadows
