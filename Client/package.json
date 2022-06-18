@@ -21,7 +21,7 @@
     "server": "webpack serve --open",
     "go": "webpack && webpack serve --open chrome"
   },
-  "author": "",
+  "author": "MSiorr",
   "license": "ISC",
   "description": ""
 }
